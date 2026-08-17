@@ -1,3 +1,8 @@
+"""Länderdaten.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu03/aufgaben/filtertransform
+"""
+
 import json
 
 
@@ -69,7 +74,7 @@ def analyze_countries(data, filter_func, transform_func):
 
 
 if __name__ == '__main__':
-    """Hauptfunktion zum Ausführen des Programms"""
+    # Hauptfunktion zum Ausführen des Programms
     # TODO: JSON-Datei (countries_data.json) öffnen und Daten laden
     countries_data = None
     try:
