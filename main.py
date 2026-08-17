@@ -1,3 +1,8 @@
+"""Länderdaten.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu03/aufgaben/filtertransform
+"""
+
 def filter_european_countries(country):
     """
     Filtert europäische Länder aus der Liste.
