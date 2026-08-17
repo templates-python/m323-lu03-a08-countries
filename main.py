@@ -61,8 +61,10 @@ def transform_to_name_and_area(country):
 
 def analyze_countries(data, filter_func, transform_func):
     """
-    Analysiert eine Liste von Länderdaten. Verwendet 'filter_func' zum Filtern und 'transform_func' zum Transformieren der Länderdaten.
-    Diese Funktion wendet transform_func auf jedes Element von Data das den kriterien in filter_func entspricht und gibt diese Liste dann zurück.
+    Analysiert eine Liste von Länderdaten. Verwendet 'filter_func' zum Filtern und 'transform_func' zum Transformieren
+    der Länderdaten.
+    Diese Funktion wendet transform_func auf jedes Element von Data das den kriterien in filter_func entspricht und gibt
+    diese Liste dann zurück.
 
     Args:
     - data: Liste von Ländern als Dictionaries
@@ -77,7 +79,7 @@ def analyze_countries(data, filter_func, transform_func):
 
 
 if __name__ == '__main__':
-    """Hauptfunktion zum Ausführen des Programms"""
+    # Hauptfunktion zum Ausführen des Programms
     # TODO: JSON-Datei (countries_data.json) öffnen und Daten laden
     countries_data = None
 
